@@ -25,6 +25,10 @@ export default defineConfig({
           // autogenerate: { directory: "reference" },
         },
         {
+          label: "Reference",
+          items: [{ label: "HTML ", link: "/reference/html" }],
+        },
+        {
           label: "Exercises",
           items: [
             { label: "1-47", link: "/exercises/1-47-city-site" },
