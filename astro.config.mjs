@@ -8,9 +8,17 @@ export default defineConfig({
       title: "Code Academy",
 
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/craigmckeachie/code-academy-notes",
       },
       sidebar: [
+        {
+          label: "Operating System",
+          items: [
+            { label: "Windows Quickstart", link: "/operating-system/windows" },
+            { label: "Mac Quickstart", link: "/operating-system/mac" },
+          ],
+          // autogenerate: { directory: "operating-system" },
+        },
         {
           label: "Visual Studio Code",
           items: [{ label: "Configuring VS Code", link: "/vscode/configuration" }],
