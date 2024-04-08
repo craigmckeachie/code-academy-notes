@@ -121,8 +121,9 @@ title: Using Git on the Command-Line
     <br/>
     <br/>
 
-    > Note: You won't have to specify the `remote` and `branch`. You can just do the following:
-
+    :::note
+    You won't have to specify the `remote` and `branch`. You can just do the following:
+   
     ```
     git push
     ```
@@ -134,3 +135,4 @@ title: Using Git on the Command-Line
     ```
 
     [For more details see this stack overflow post](https://stackoverflow.com/questions/37770467/why-do-i-have-to-git-push-set-upstream-origin-branch).
+    ::: 
