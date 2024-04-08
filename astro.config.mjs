@@ -12,13 +12,9 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Git",
-          items: [
-            { label: "Getting Started", link: "/git/getting-started" },
-            { label: "Configuring Git", link: "/git/configuration" },
-            { label: "Using Git in VS Code", link: "/git/git-vscode" },
-            { label: "Using Git on the Command-Line", link: "/git/git-command-line" },
-          ],
+          label: "Visual Studio Code",
+          items: [{ label: "Configuring VS Code", link: "/vscode/configuration" }],
+          // autogenerate: { directory: "reference" },
         },
         {
           label: "Exercises",
@@ -34,8 +30,13 @@ export default defineConfig({
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Git",
+          items: [
+            { label: "Getting Started", link: "/git/getting-started" },
+            { label: "Configuring Git", link: "/git/configuration" },
+            { label: "Using Git in VS Code", link: "/git/git-vscode" },
+            { label: "Using Git on the Command-Line", link: "/git/git-command-line" },
+          ],
         },
       ],
     }),
