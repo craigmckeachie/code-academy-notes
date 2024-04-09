@@ -30,6 +30,8 @@ Below are a collection of some of my favorite CSS related resources.
 
 ## FAQ
 
+- <a href="https://davegregg.github.io/flexbox-demo/" target="_blank">DMG Flexbox Demo</a>
+
 <!-- - <a href="https://makersaid.com/how-to-name-html-ids-and-classes/" target="_blank">
   How to Name Your HTML Ids and Classes
   </a>
