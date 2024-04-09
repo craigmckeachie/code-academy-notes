@@ -4,9 +4,14 @@ title: Visual Studio Code Configuration
 
 ## Basics
 
-1. Add "Open with Code" to Windows Explorer directory and file context menu.
+1. Add "Open with Code" to `Windows File Explorer` directory and file context menu.
 
-   ![image](https://github.com/craigmckeachie/yearup-pgh-spring-2023/assets/1474579/17e8bdc1-acdc-4a5b-bc13-d21eb5287a17)
+   ![VS Code Install Open with Code Screenshot](https://github.com/craigmckeachie/yearup-pgh-spring-2023/assets/1474579/17e8bdc1-acdc-4a5b-bc13-d21eb5287a17)
+
+<!-- 1. Add "Open with Code" to `Mac Finder`
+
+   - Open the Command Palette (Cmd+Shift+P) and type shell command to find the Shell Command: Install 'code' command in PATH command.
+     ![VS Code Command Palette Shell Command for Mac](https://i.stack.imgur.com/2Yen6.png) -->
 
 1. [Turn on Autosave in VS Code](https://stackoverflow.com/a/56480358/48175)
 
@@ -14,7 +19,9 @@ title: Visual Studio Code Configuration
 
 1. [Configure File Icon Theme](https://code.visualstudio.com/docs/getstarted/themes#_file-icon-themes)
 
+   :::tip
    > [Popular Color and File Icon Themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs)
+   :::
 
 ## Extensions
 
@@ -27,6 +34,7 @@ Install these extensions.
 - [W3C Web Validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [HTML End Tag Labels](https://marketplace.visualstudio.com/items?itemName=anteprimorac.html-end-tag-labels)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### CSS
 
@@ -57,7 +65,9 @@ Install these extensions.
 
   ![image](https://github.com/craigmckeachie/yearup-fall2023-notes/assets/1474579/99c200f4-acab-4205-9f61-90d10948267c)
 
-  > Warning: Autosave will not trigger formatting. You need to choose `File`> `Save` from the top menu or use the corresponding shortcut `Ctrl+S`
+  :::danger
+  Autosave will not trigger formatting. You need to choose `File`> `Save` from the top menu or use the corresponding shortcut `Ctrl+S`
+  :::
 
 - Prettier: Print Width
 
