@@ -10,6 +10,11 @@ Below are a collection of some of my favorite HTML related resources.
 - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN: Best Comprehensive Reference</a>
 - <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools: Beginner Friendly Reference</a>
 
+## Syntax
+
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_element" target="_blank">MDN: Anatomy of an HTML Element</a>
+- <a href="https://hitchhikers.yext.com/modules/tech101-intro-to-html/01-what-is-html/?target=anatomy-of-an-html-element" target="_blank">Hitchhikers: Anatomy of an HTML Element</a>
+
 ## Cheatsheets
 
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet" target="_blank">MDN: HTML Cheatsheet</a>
