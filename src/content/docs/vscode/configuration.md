@@ -20,7 +20,8 @@ title: Visual Studio Code Configuration
 1. [Configure File Icon Theme](https://code.visualstudio.com/docs/getstarted/themes#_file-icon-themes)
 
    :::tip
-   > [Popular Color and File Icon Themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs)
+
+   [Popular Color and File Icon Themes](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs)
    :::
 
 ## Extensions
