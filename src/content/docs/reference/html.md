@@ -15,7 +15,7 @@ Below are a collection of some of my favorite HTML related resources.
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet" target="_blank">MDN: HTML Cheatsheet</a>
 - <a href="https://cheatsheets.zip/html.html" target="_blank">CheatsSheets.zip: HTML Cheatsheet</a>
 - <a href="https://www3.cs.stonybrook.edu/~pramod.ganapathi/doc/CSE102/CSE102-CheatSheetHTML.pdf"  target="_blank">Hostinger: Complete HTML Cheatsheet</a>
-- <a href="https://htmlcss.tools/" target="_blank">HTML CSS Tools</a>
+- <a href="https://htmlcss.tools/html" target="_blank">HTML CSS Tools</a>
 - <a href="https://docs.emmet.io/cheat-sheet/" target="_blank">HTML Autocomplete: Emmet Cheatsheet</a>
 
 ## Tutorials/Guides
@@ -25,6 +25,7 @@ Below are a collection of some of my favorite HTML related resources.
 - <a href="https://htmlandcssbook.com/code-samples/" target="_blank">HTML & CSS Book: Code Examples</a>
 
 ## Tools
+
 - [Favorite VS Code Extensions for HTML](../vscode/configuration#html)
 
 ## FAQ

@@ -26,7 +26,10 @@ export default defineConfig({
         },
         {
           label: "Reference",
-          items: [{ label: "HTML ", link: "/reference/html" }],
+          items: [
+            { label: "HTML ", link: "/reference/html" },
+            { label: "CSS ", link: "/reference/css" },
+          ],
         },
         {
           label: "Exercises",
