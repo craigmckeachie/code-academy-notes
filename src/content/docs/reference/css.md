@@ -12,8 +12,10 @@ Below are a collection of some of my favorite CSS related resources.
 
 ## Cheatsheets
 
+- <a href="https://cdn.hostinger.com/tutorials/pdf/CSS-3-Cheatsheet.pdf" target="_blank">Hostinger: CSS Cheatsheet</a>
+
 - <a href="https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf" target="_blank">CSS Style Sheets Cheatsheet (CSS version 1 & 2)</a>
-- <a href="https://cheatsheets.zip/css3" target="_blank">CheatsSheets.zip: HTML Cheatsheet</a>
+- <a href="https://cheatsheets.zip/css3" target="_blank">CheatsSheets.zip: CSS Cheatsheet</a>
 - <a href="https://htmlcss.tools/css" target="_blank">HTML CSS Tools</a>
 - <a href="https://adam-marsden.co.uk/css-cheat-sheet" target="_blank">Adam Marsden: CSS Cheat Sheet</a>
 
