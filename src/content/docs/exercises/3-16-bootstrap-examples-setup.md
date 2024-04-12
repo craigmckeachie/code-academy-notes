@@ -26,8 +26,8 @@ In this exercise, you create a `bootstrap-examples` project and configure a home
 1.  Add the meta tags that Bootstrap expects. Then include the `Bootstrap 5.2` framework's `CSS` and `JS` files from a CDN.
 1.  Add an `h1` and a `paragraph` to the `index.html` page.
 1.  Test the page to verify that the bootstrap stylesheet changed the look of the page.
-1.  [Download Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/) and include the files in the `css` and `scripts` folders respectively.
-1.  Update the stylesheet link and script in `index.html` to point to the Bootstrap files you downloaded in the last step.
+1.  In the `css` folder create a file `bootstrap.css`. Copy the contents of this file into `bootstrap.css` (https://gist.github.com/craigmckeachie/357e9180b245d2cb87c342fd319c4d0e).
+1.  Update the stylesheet link in `index.html` to point to the `bootstrap.js` file you downloaded in the last step.
 1.  Test the page to verify it still looks the same.
 1.  Test that you can peek at your styles and the class names from Bootstrap autocomplete now that the files are in your project.
 
