@@ -1,6 +1,6 @@
 ---
 title: HTML Resources
-description: Link to resources about HTML
+description: Links to resources about HTML
 ---
 
 Below are a collection of some of my favorite HTML related resources.

@@ -1,6 +1,6 @@
 ---
 title: CSS Resources
-description: Link to resources about CSS
+description: Links to resources about CSS
 ---
 
 Below are a collection of some of my favorite CSS related resources.
