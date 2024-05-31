@@ -21,7 +21,9 @@ export default defineConfig({
         },
         {
           label: "Visual Studio Code",
-          items: [{ label: "Configuring VS Code", link: "/vscode/configuration" }],
+          items: [
+            { label: "Configuring VS Code", link: "/vscode/configuration" },
+          ],
           // autogenerate: { directory: "reference" },
         },
         {
@@ -38,10 +40,16 @@ export default defineConfig({
             { label: "2-21", link: "/exercises/2-21-city-site" },
             { label: "3-16", link: "/exercises/3-16-bootstrap-examples-setup" },
             { label: "3-25", link: "/exercises/3-25-bootstrap-examples-grid" },
-            { label: "3-38", link: "/exercises/3-38-bootstrap-examples-utility-classes" },
+            {
+              label: "3-38",
+              link: "/exercises/3-38-bootstrap-examples-utility-classes",
+            },
             { label: "3-46", link: "/exercises/3-46-bootstrap-examples-forms" },
             { label: "3-47", link: "/exercises/3-47-bootstrap-examples-cards" },
-            { label: "3-49", link: "/exercises/3-49-bootstrap-examples-navbar" },
+            {
+              label: "3-49",
+              link: "/exercises/3-49-bootstrap-examples-navbar",
+            },
           ],
         },
         {
@@ -50,7 +58,22 @@ export default defineConfig({
             { label: "Getting Started", link: "/git/getting-started" },
             { label: "Configuring Git", link: "/git/configuration" },
             { label: "Using Git in VS Code", link: "/git/git-vscode" },
-            { label: "Using Git on the Command-Line", link: "/git/git-command-line" },
+            {
+              label: "Using Git on the Command-Line",
+              link: "/git/git-command-line",
+            },
+            {
+              label: "Git GUI vs Command-Line",
+              link: "/git/git-gui-cli",
+            },
+            {
+              label: "Git Branch Merge",
+              link: "/git/git-branch-merge",
+            },
+            {
+              label: "Git Clone",
+              link: "/git/git-clone",
+            },
           ],
         },
       ],
