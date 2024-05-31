@@ -74,6 +74,10 @@ export default defineConfig({
               label: "Git Clone",
               link: "/git/git-clone",
             },
+            {
+              label: "Git Remote",
+              link: "/git/git-remote",
+            },
           ],
         },
       ],
