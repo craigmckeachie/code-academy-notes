@@ -12,19 +12,21 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Operating System",
+          label: "Reference",
           items: [
-            { label: "Windows Quickstart", link: "/operating-system/windows" },
-            { label: "Mac Quickstart", link: "/operating-system/mac" },
+            { label: "HTML ", link: "/reference/html" },
+            { label: "CSS ", link: "/reference/css" },
+            { label: "JavaScript ", link: "/reference/javascript" },
+            { label: "HTML & JavaScript ", link: "/reference/html-javascript" },
+            {
+              label: "Naming Conventions ",
+              link: "/reference/naming-conventions",
+            },
+            {
+              label: "Special Characters ",
+              link: "/reference/special-characters",
+            },
           ],
-          // autogenerate: { directory: "operating-system" },
-        },
-        {
-          label: "Visual Studio Code",
-          items: [
-            { label: "Configuring VS Code", link: "/vscode/configuration" },
-          ],
-          // autogenerate: { directory: "reference" },
         },
         {
           label: "Resources",
@@ -77,6 +79,21 @@ export default defineConfig({
               link: "/git/git-collaboration-cheatsheet",
             },
           ],
+        },
+        {
+          label: "Visual Studio Code",
+          items: [
+            { label: "Configuring VS Code", link: "/vscode/configuration" },
+          ],
+          // autogenerate: { directory: "reference" },
+        },
+        {
+          label: "Operating Systems",
+          items: [
+            { label: "Windows", link: "/operating-system/windows" },
+            { label: "Mac", link: "/operating-system/mac" },
+          ],
+          // autogenerate: { directory: "operating-system" },
         },
         {
           label: "Exercises",
