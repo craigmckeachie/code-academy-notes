@@ -35,25 +35,6 @@ export default defineConfig({
           ],
         },
         {
-          label: "Exercises",
-          items: [
-            { label: "1-47", link: "/exercises/1-47-city-site" },
-            { label: "2-21", link: "/exercises/2-21-city-site" },
-            { label: "3-16", link: "/exercises/3-16-bootstrap-examples-setup" },
-            { label: "3-25", link: "/exercises/3-25-bootstrap-examples-grid" },
-            {
-              label: "3-38",
-              link: "/exercises/3-38-bootstrap-examples-utility-classes",
-            },
-            { label: "3-46", link: "/exercises/3-46-bootstrap-examples-forms" },
-            { label: "3-47", link: "/exercises/3-47-bootstrap-examples-cards" },
-            {
-              label: "3-49",
-              link: "/exercises/3-49-bootstrap-examples-navbar",
-            },
-          ],
-        },
-        {
           label: "Git",
           items: [
             { label: "Getting Started", link: "/git/git-getting-started" },
@@ -94,6 +75,25 @@ export default defineConfig({
             {
               label: "Git Collaboration Cheatsheet",
               link: "/git/git-collaboration-cheatsheet",
+            },
+          ],
+        },
+        {
+          label: "Exercises",
+          items: [
+            { label: "1-47", link: "/exercises/1-47-city-site" },
+            { label: "2-21", link: "/exercises/2-21-city-site" },
+            { label: "3-16", link: "/exercises/3-16-bootstrap-examples-setup" },
+            { label: "3-25", link: "/exercises/3-25-bootstrap-examples-grid" },
+            {
+              label: "3-38",
+              link: "/exercises/3-38-bootstrap-examples-utility-classes",
+            },
+            { label: "3-46", link: "/exercises/3-46-bootstrap-examples-forms" },
+            { label: "3-47", link: "/exercises/3-47-bootstrap-examples-cards" },
+            {
+              label: "3-49",
+              link: "/exercises/3-49-bootstrap-examples-navbar",
             },
           ],
         },
