@@ -27,11 +27,11 @@ export default defineConfig({
           // autogenerate: { directory: "reference" },
         },
         {
-          label: "Reference",
+          label: "Resources",
           items: [
-            { label: "HTML ", link: "/reference/html" },
-            { label: "CSS ", link: "/reference/css" },
-            { label: "JavaScript ", link: "/reference/javascript" },
+            { label: "HTML ", link: "/resources/html" },
+            { label: "CSS ", link: "/resources/css" },
+            { label: "JavaScript ", link: "/resources/javascript" },
           ],
         },
         {
