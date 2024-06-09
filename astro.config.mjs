@@ -31,6 +31,7 @@ export default defineConfig({
           items: [
             { label: "HTML ", link: "/reference/html" },
             { label: "CSS ", link: "/reference/css" },
+            { label: "JavaScript ", link: "/reference/javascript" },
           ],
         },
         {
