@@ -37,17 +37,19 @@ title: Git Feature Branch Workflow
       git pull origin main
       ```
 
-
       > Note: What git pull actually does is two commands: fetch and merge)
       > YOU WILL NOT NEED TO RUN THESE COMMANDS BUT AS AN EXAMPLE
+      >
       > ```bash
       > git checkout feature/your-feature-name #make sure you are in your feature branch
-      > git fetch origin main 
+      > git fetch origin main
       > git merge origin/main
       > ```
 
-    - Resolve conflicts by editing the conflicting files manually.
-      >If there are no conflicts you can skip the next two bullet point steps.
+    - If conflicts exist resolve them by editing the conflicting files manually.
+
+      > If there are no conflicts you can skip the next two bullet point steps.
+
       - Stage the resolved files for commit:
         ```bash
         git add .
@@ -73,6 +75,7 @@ title: Git Feature Branch Workflow
 
     Specify the main branch (on the left) and the branch containing your changes (feature: on the right).
     The arrow should be pointed back at the `main` branch.
+
     ```sh
     main <- feature
     ```
@@ -86,9 +89,9 @@ title: Git Feature Branch Workflow
 
     The pull request reviewer (designated person...often the owner of the repository) reviews the changes, ensuring they meet the requirements and have proper test coverage.
 
-    If conflicts occur during the merge on GitHub.com, GitHub will notify you and prevent the merge from proceeding. Conflicts need to be resolved.
+    If conflicts occur during the merge on GitHub.com, GitHub will notify you and prevent the merge from proceeding. Conflicts need to be resolved but are generally fixed by the collaborator locally in their feature branch using the following steps.
 
-    a. Resolve conflicts locally:
+    a. Collaborator resolves conflicts locally:
 
     - Fetch the latest changes from the main branch:
 
@@ -97,7 +100,7 @@ title: Git Feature Branch Workflow
       git pull origin main
       ```
 
-    - Resolve conflicts by editing the conflicting files manually.
+    - If conflicts, resolve conflicts by editing the conflicting files manually.
     - Stage the resolved files for commit:
       ```bash
       git add .
