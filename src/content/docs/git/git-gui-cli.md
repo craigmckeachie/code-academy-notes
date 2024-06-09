@@ -1,5 +1,5 @@
 ---
-title: Corresponding Git GUI and CLI Commands
+title: Git GUI and CLI Commands
 ---
 
 ## Initialize Repository

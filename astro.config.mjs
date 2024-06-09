@@ -56,8 +56,8 @@ export default defineConfig({
         {
           label: "Git",
           items: [
-            { label: "Getting Started", link: "/git/getting-started" },
-            { label: "Configuring Git", link: "/git/configuration" },
+            { label: "Getting Started", link: "/git/git-getting-started" },
+            { label: "Configuring Git", link: "/git/git-configuration" },
             { label: "Using Git in VS Code", link: "/git/git-vscode" },
             {
               label: "Using Git on the Command-Line",
@@ -68,16 +68,32 @@ export default defineConfig({
               link: "/git/git-gui-cli",
             },
             {
-              label: "Git Branch Merge",
-              link: "/git/git-branch-merge",
-            },
-            {
               label: "Git Clone",
               link: "/git/git-clone",
             },
             {
+              label: "Git Branch Merge",
+              link: "/git/git-branch-merge",
+            },
+            {
               label: "Git Remote",
               link: "/git/git-remote",
+            },
+            {
+              label: "Git Collaboration",
+              link: "/git/git-collaboration",
+            },
+            {
+              label: "Git Feature Branch Workflow",
+              link: "/git/git-feature-branch-workflow",
+            },
+            {
+              label: "Github Repository Configuration",
+              link: "/git/github-repository-configuration",
+            },
+            {
+              label: "Git Collaboration Cheatsheet",
+              link: "/git/git-collaboration-cheatsheet",
             },
           ],
         },
