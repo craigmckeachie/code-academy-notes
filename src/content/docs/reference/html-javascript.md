@@ -106,6 +106,34 @@ title: HTML & JavaScript
 
 ## Checkbox
 
+### get
+
+```html
+<input type="checkbox" id="isActiveCheckbox" checked />
+<label for="isActiveCheckbox">Is Active?</label>
+
+<script>
+  "use strict";
+  const isActiveCheckbox = document.querySelector("#isActiveCheckbox");
+  let isActive = isActiveCheckbox.checked;
+  console.log(isActive); //true
+</script>
+```
+
+### set
+
+```html
+<input type="checkbox" id="isActiveCheckbox" />
+<label for="isActiveCheckbox">Is Active?</label>
+
+<script>
+  "use strict";
+  const isActiveCheckbox = document.querySelector("#isActiveCheckbox");
+  isActiveCheckbox.checked = true;
+  //checkbox will now be checked on the web page
+</script>
+```
+
 ## RadioButton
 
 # Content
