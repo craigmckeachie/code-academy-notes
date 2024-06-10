@@ -391,9 +391,9 @@ using anonymous arrow function inline
 
 ```
 
-### Fetch
+## Fetch
 
-#### GET Using promise then
+### GET using then
 
 ```js
 //users
@@ -479,7 +479,7 @@ fetch("http://jsonplaceholder.typicode.com/users/1")
 // }
 ```
 
-#### POST using then
+### POST using then
 
 ```js
 let user = {
@@ -501,7 +501,7 @@ fetch("http://localhost:3000/users/", requestInit)
   });
 ```
 
-#### PUT using then
+### PUT using then
 
 ```js
 let user = {
@@ -523,7 +523,7 @@ fetch("http://localhost:3000/users/12", requestInit)
   });
 ```
 
-#### DELETE using then
+### DELETE using then
 
 ```js
 let user = {
@@ -545,7 +545,7 @@ fetch("http://localhost:3000/users/" + user.id, requestInit)
   });
 ```
 
-#### GET using async await
+### GET using async await
 
 ```js
 //async  - notation that the function is going to: use await inside of it (i.e. call a function that returns a promise)
@@ -604,7 +604,7 @@ loadUsers();
 //   ]
 ```
 
-#### GET returning data using async await
+### GET returning data using async await
 
 ```js
 async function initialize() {
