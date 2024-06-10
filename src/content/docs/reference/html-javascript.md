@@ -390,3 +390,233 @@ using anonymous arrow function inline
 ```js
 
 ```
+
+### Fetch
+
+#### GET Using promise then
+
+```js
+//users
+fetch("http://jsonplaceholder.typicode.com/users")
+  .then((response) => response.json())
+  .then((users) => {
+    console.log(users);
+  });
+
+//returns an array of objects (many users)
+
+// [
+//   {
+//     id: 1,
+//     name: 'Leanne Graham',
+//     username: 'Bret',
+//     email: 'Sincere@april.biz',
+//     address: {
+//       street: 'Kulas Light',
+//       suite: 'Apt. 556',
+//       city: 'Gwenborough',
+//       zipcode: '92998-3874',
+//       geo: [Object]
+//     },
+//     phone: '1-770-736-8031 x56442',
+//     website: 'hildegard.org',
+//     company: {
+//       name: 'Romaguera-Crona',
+//       catchPhrase: 'Multi-layered client-server neural-net',
+//       bs: 'harness real-time e-markets'
+//     }
+//   },
+//   {
+//     id: 2,
+//     name: 'Ervin Howell',
+//     username: 'Antonette',
+//     email: 'Shanna@melissa.tv',
+//     address: {
+//       street: 'Victor Plains',
+//       suite: 'Suite 879',
+//       city: 'Wisokyburgh',
+//       zipcode: '90566-7771',
+//       geo: [Object]
+//     },
+//     phone: '010-692-6593 x09125',
+//     website: 'anastasia.net',
+//     company: {
+//       name: 'Deckow-Crist',
+//       catchPhrase: 'Proactive didactic contingency',
+//       bs: 'synergize scalable supply-chains'
+//     }
+//   },
+//   ]
+
+//user
+fetch("http://jsonplaceholder.typicode.com/users/1")
+  .then((response) => response.json()) //JSON.parse(response.body)
+  .then((user) => {
+    console.log(user);
+  });
+
+//return a single user object
+
+// {
+//   id: 1,
+//   name: 'Leanne Graham',
+//   username: 'Bret',
+//   email: 'Sincere@april.biz',
+//   address: {
+//     street: 'Kulas Light',
+//     suite: 'Apt. 556',
+//     city: 'Gwenborough',
+//     zipcode: '92998-3874',
+//     geo: { lat: '-37.3159', lng: '81.1496' }
+//   },
+//   phone: '1-770-736-8031 x56442',
+//   website: 'hildegard.org',
+//   company: {
+//     name: 'Romaguera-Crona',
+//     catchPhrase: 'Multi-layered client-server neural-net',
+//     bs: 'harness real-time e-markets'
+//   }
+// }
+```
+
+#### POST using then
+
+```js
+let user = {
+  name: "TiffanJ Doory",
+  username: "tdoorey",
+  email: "tdoorey@lipsmack.com",
+};
+
+let requestInit = {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(user),
+};
+
+fetch("http://localhost:3000/users/", requestInit)
+  .then((response) => response.json())
+  .then((user) => {
+    console.log(user);
+  });
+```
+
+#### PUT using then
+
+```js
+let user = {
+  name: "Tiffany Updated Doory",
+  username: "tdoorey",
+  email: "tdoorey@lipsdontlie.com",
+};
+
+let requestInit = {
+  method: "PUT",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(user),
+};
+
+fetch("http://localhost:3000/users/12", requestInit)
+  .then((response) => response.json())
+  .then((user) => {
+    console.log(user);
+  });
+```
+
+#### DELETE using then
+
+```js
+let user = {
+  id: 13,
+  name: "Tiffany Doory",
+  username: "tdoorey",
+  email: "tdoorey@lipsdontlie.com",
+};
+
+let requestInit = {
+  method: "DELETE",
+  headers: { "Content-Type": "application/json" },
+};
+
+fetch("http://localhost:3000/users/" + user.id, requestInit)
+  .then((response) => response.json())
+  .then(() => {
+    console.log(`Successfully deleted ${user.name}`);
+  });
+```
+
+#### GET using async await
+
+```js
+//async  - notation that the function is going to: use await inside of it (i.e. call a function that returns a promise)
+//await
+async function loadUsers() {
+  let response = await fetch("http://jsonplaceholder.typicode.com/users");
+  let users = await response.json();
+  console.log(users);
+}
+
+loadUsers();
+
+//returns an array of objects (many users)
+
+// [
+//   {
+//     id: 1,
+//     name: 'Leanne Graham',
+//     username: 'Bret',
+//     email: 'Sincere@april.biz',
+//     address: {
+//       street: 'Kulas Light',
+//       suite: 'Apt. 556',
+//       city: 'Gwenborough',
+//       zipcode: '92998-3874',
+//       geo: [Object]
+//     },
+//     phone: '1-770-736-8031 x56442',
+//     website: 'hildegard.org',
+//     company: {
+//       name: 'Romaguera-Crona',
+//       catchPhrase: 'Multi-layered client-server neural-net',
+//       bs: 'harness real-time e-markets'
+//     }
+//   },
+//   {
+//     id: 2,
+//     name: 'Ervin Howell',
+//     username: 'Antonette',
+//     email: 'Shanna@melissa.tv',
+//     address: {
+//       street: 'Victor Plains',
+//       suite: 'Suite 879',
+//       city: 'Wisokyburgh',
+//       zipcode: '90566-7771',
+//       geo: [Object]
+//     },
+//     phone: '010-692-6593 x09125',
+//     website: 'anastasia.net',
+//     company: {
+//       name: 'Deckow-Crist',
+//       catchPhrase: 'Proactive didactic contingency',
+//       bs: 'synergize scalable supply-chains'
+//     }
+//   },
+//   ]
+```
+
+#### GET returning data using async await
+
+```js
+async function initialize() {
+  async function fetchUsers() {
+    let response = await fetch("http://jsonplaceholder.typicode.com/users");
+    let users = await response.json();
+    return users;
+  }
+
+  let users = await fetchUsers();
+  console.log(users);
+}
+
+initialize();
+```
