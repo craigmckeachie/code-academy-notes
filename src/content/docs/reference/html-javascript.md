@@ -197,13 +197,11 @@ coursesTable = document.querySelector("#coursesTable");
 </script>
 ```
 
-# Events
+## Events
 
-## Associate function with HTML Element's event
+### Using `on[event]` property
 
-using `on[event]` property
-
-- define function then use on[event] property of the element
+- Associate a function with HTML Element's event using the on[event] property
 
 ```html
 <button id="saveButton">Save</button>
@@ -220,9 +218,9 @@ using `on[event]` property
 </script>
 ```
 
-using `addEventListener`
+### Using `addEventListener`
 
-- define function then for event and associate it with the function
+- Associate the event with a function you defined to handle the event
 
 ```html
 <button id="saveButton">Save</button>
@@ -268,7 +266,7 @@ using anonymous arrow function inline
 </script>
 ```
 
-## Build
+## Build HTML Elements
 
 ### Dropdown (select)
 
@@ -386,7 +384,7 @@ using anonymous arrow function inline
 
 ### Divs (cards)
 
-## Hide & Show
+## Hide & Show Elements
 
 ```js
 

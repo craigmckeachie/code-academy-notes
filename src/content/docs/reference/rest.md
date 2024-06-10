@@ -14,7 +14,7 @@ title: REST
 
 ## POST (insert)
 
-- make sure the HTTP Method is POST (NOT GET)
+- make sure the HTTP Method is POST
 - you don't want an id in the URL
 - you need an HTTP Header to tell the server about the content-type
   ```http
@@ -27,7 +27,7 @@ title: REST
 
 ## PUT (update)
 
-- make sure the HTTP Method is PUT (NOT GET)
+- make sure the HTTP Method is PUT
 - you DO want an id in the URL, so you can tell the server what to update
 - you need an HTTP Header to tell the server about the content-type
   ```http
