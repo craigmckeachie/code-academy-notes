@@ -17,8 +17,7 @@ title: HTML & JavaScript
 # Getting HTML Elements into a Variable
 
 ```html
-// # means id
-const coursesTable = document.querySelector("#coursesTable");
+// # means id const coursesTable = document.querySelector("#coursesTable");
 ```
 
 # Forms
@@ -240,9 +239,9 @@ using anonymous arrow function inline
 </script>
 ```
 
-# Build
+## Build
 
-## Droppdown (select)
+### Dropdown (select)
 
 ```html
 <!DOCTYPE html>
@@ -282,7 +281,7 @@ using anonymous arrow function inline
 </html>
 ```
 
-## Table
+### Table
 
 ```html
 <table>
@@ -356,10 +355,9 @@ using anonymous arrow function inline
 </script>
 ```
 
-## Divs (cards)
+### Divs (cards)
 
-# Hide & Show
-
+## Hide & Show
 
 ```js
 
