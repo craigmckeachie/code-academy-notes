@@ -26,6 +26,7 @@ export default defineConfig({
               label: "Special Characters ",
               link: "/reference/special-characters",
             },
+            { label: "Rest", link: "/reference/rest" },
           ],
         },
         {
