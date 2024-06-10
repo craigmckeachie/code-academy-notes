@@ -2,13 +2,9 @@
 title: JavaScript
 ---
 
-### Variable
+## Variables
 
-```js
-let myVariable = "a string";
-```
-
-### Declaring a Variable
+### Declaring a variable(s)
 
 ```js
 let myVariable;
@@ -19,17 +15,17 @@ const myNotChangeableVariable;
 
 ```js
 let myVariable;
-//assignment
-myVariable = "something";
+myVariable = "something"; //assignment
 ```
 
-### Declaring a Variable and Assigning a Variable (initialization)
+### Declaring a variable & assigning a variable
 
 ```js
 let myVariable = "something";
 ```
+>  Assignment is also referred to as `initialization` of the variable
 
-### Data Types
+## Data Types
 
 ```js
 let myText = "this is a string";
@@ -40,7 +36,7 @@ let variable1; //undefined
 let variable2 = null; //null
 ```
 
-### If
+## If
 
 ```js
 let condition = true;
@@ -56,7 +52,7 @@ if (condition) {
 }
 ```
 
-### And
+### If with an `and` condition
 
 ```js
 let condition1 = true;
@@ -66,7 +62,7 @@ if (condition1 && condition2) {
 }
 ```
 
-### Or
+### If with an `or` condition
 
 ```js
 let condition1 = false;
@@ -76,9 +72,9 @@ if (condition1 || condition2) {
 }
 ```
 
-### Strings
+## Strings
 
-#### Search a String
+### Search a String
 
 ```js
 let haystack = "hayhayhayhayneedlehayhayhayhayhay";
@@ -91,7 +87,7 @@ let startPositionOfNeedle1 = haystack1.indexOf("needle");
 console.log(startPositionOfNeedle1); //-1 which means not found
 ```
 
-#### Build a Dynamic String
+### Build a Dynamic String
 
 old way:
 plus operator to concatenate
@@ -102,15 +98,15 @@ let url = "http:localhost:3000/users/" + userId;
 console.log(url); //http:localhost:3000/users/5
 ```
 
-Uses: when adding 1 variable (2 maximum) to the beginning or end of the string
+> Uses: when adding 1 variable (2 maximum) to the beginning or end of the string
 
-new way:
+Modern way:
 Also, referred to as:
 
 - Substituting placeholder variables
 - Template literal string
 - String interpolation
-- be sure to use back-ticks(``) not single-quotes ('')
+- be sure to use back-ticks(\` \`) not single-quotes (\' \')
 
 ```js
 let myVariable1 = "aaa";
@@ -119,11 +115,11 @@ let sentence = `This is text that ${myVariable1} will be ${myVariable2} taken li
 console.log(sentence); //This is text that aaa will be bbb taken literally.
 ```
 
-Uses: when adding many variables to different parts of the string (multiple pluses) or just because it is easier to read most of the time
+> Uses: when adding many variables to different parts of the string (multiple pluses) or just because it is easier to read most of the time
 
-### Function
+## Functions
 
-#### Function Declaration
+### Function Declaration
 
 ```js
 //defining a function
@@ -144,9 +140,9 @@ let output = add(2, 2); //function name followed by parenthesis
 console.log(output); //4
 ```
 
-#### Arrow Function
+### Arrow Function
 
-summary: shorter version of a full function, a light-weight function
+A shorter version of a full function, a light-weight function
 
 ```js
 //defining a function
@@ -164,7 +160,7 @@ let output = add(2, 2);
 console.log(output); //4
 ```
 
-#### Anonymous Function
+### Anonymous Function
 
 A function without a name
 
@@ -182,7 +178,9 @@ saveButton.onclick = () => {
 };
 ```
 
-### For
+## For
+
+### for loop
 
 ```js
 //old way
@@ -196,7 +194,11 @@ for (let index = 0; index < letters.length; index++) {
 //a
 //b
 //c
+```
 
+### for of loop
+
+```js
 //new way (easier)
 let letters = ["a", "b", "c"]; //array of strings
 
@@ -209,7 +211,7 @@ for (let letter of letters) {
 //c
 ```
 
-### Object
+## Object
 
 ```js
 let myObject = {
@@ -221,7 +223,9 @@ let myObject = {
 console.log(myObject.last); //"Doe"
 ```
 
-### Array
+## Array
+
+### Array of strings
 
 ```js
 let letters = ["a", "b", "c"]; //array of strings
@@ -231,7 +235,11 @@ for (let letter of letters) {
 //a
 //b
 //c
+```
 
+### Array of numbers
+
+```js
 let numbers = [1, 2, 3]; //array of numbers
 for (let number of numbers) {
   console.log(number);
@@ -239,7 +247,11 @@ for (let number of numbers) {
 //1
 //2
 //3
+```
 
+### Array of objects
+
+```js
 //array of objects
 let people = [
   {
@@ -283,9 +295,9 @@ for (const propertyName in myObject) {
 // Doe;
 ```
 
-### Array Methods
+## Array Methods
 
-#### find
+### find
 
 ```js
 //array of objects
@@ -308,7 +320,7 @@ let person = people.find((person) => person.last == "Goodale");
 console.log(person.first); //Jane
 ```
 
-#### filter
+### filter
 
 ```js
 //array of objects
@@ -329,11 +341,10 @@ console.log(pacificTeams);
 // ];
 ```
 
-#### map
+### map
 
-#### forEach
+### forEach
 
 ```js
 
 ```
-
