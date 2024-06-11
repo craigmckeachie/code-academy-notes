@@ -17,8 +17,8 @@ title: HTML & JavaScript
 # Getting HTML Elements into a Variable
 
 ```js
-//# means id const
-coursesTable = document.querySelector("#coursesTable");
+//# means id
+const coursesTable = document.querySelector("#coursesTable");
 ```
 
 # Forms
