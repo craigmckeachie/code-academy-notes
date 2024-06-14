@@ -5,7 +5,7 @@ title: Git Collaboration
 ## Once per computer
 
 - Who: Owner and Collaborators
-- [Configure your local git installation]()
+- [Configure your local git installation](../git-configuration)
 
 ## Once per project
 
