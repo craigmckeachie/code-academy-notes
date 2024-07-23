@@ -8,7 +8,7 @@ Below are a collection of some of my favorite HTML related resources.
 ## References
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN: Best Comprehensive Reference</a>
-- <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools: Beginner Friendly Reference</a>
+- <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools: Beginner Friendly Reference</a> 
 
 ## Syntax
 
@@ -27,6 +27,7 @@ Below are a collection of some of my favorite HTML related resources.
 
 - <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools: HTML Tutorial</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">MDN: Guide</a>
+- <a href="https://web.dev/learn/html" target="_blank">Web.dev: Learn HTML</a>
 - <a href="https://htmlandcssbook.com/code-samples/" target="_blank">HTML & CSS Book: Code Examples</a>
 
 ## Tools

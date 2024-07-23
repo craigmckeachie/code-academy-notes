@@ -22,6 +22,7 @@ Below are a collection of some of my favorite CSS related resources.
 
 - <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools: CSS Tutorial</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank">MDN: Guide</a>
+- <a href="https://web.dev/learn/css" target="_blank">Web.dev: Learn CSS</a>
 
 ## Tools
 
