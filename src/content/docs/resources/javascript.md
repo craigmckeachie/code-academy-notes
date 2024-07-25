@@ -16,6 +16,12 @@ Below are a collection of some of my favorite JavaScript related resources.
 - <a href="https://quickref.me/javascript.html" target="_blank">JavaScript Quick Reference</a>
 - <a href="https://github.com/mbeaudru/modern-js-cheatsheet?tab=readme-ov-file" target="_blank">Modern JavaScript Cheatsheet</a>
 
+## Tutorials/Guides
+
+- <a href="https://web.dev/learn/javascript" target="_blank">Web.dev: Learn JavaScript</a>
+- <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools: JavaScript Tutorial</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" target="_blank">MDN: Guide</a>
+
 ## Other
 
 - [Function Analogies](https://www.quora.com/What-are-some-analogies-to-describe-what-a-function-is-in-programming)
