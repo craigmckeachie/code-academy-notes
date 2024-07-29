@@ -23,7 +23,8 @@ myVariable = "something"; //assignment
 ```js
 let myVariable = "something";
 ```
->  Assignment is also referred to as `initialization` of the variable
+
+> Assignment is also referred to as `initialization` of the variable
 
 ## Data Types
 
@@ -343,8 +344,28 @@ console.log(pacificTeams);
 
 ### map
 
+```js
+let people = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 },
+  { name: "Bob", age: 45 },
+];
+
+let names = people.map((person) => person.name);
+console.log(names); // [ 'John', 'Jane', 'Bob ]
+```
+
 ### forEach
 
 ```js
+let numbers = [1, 2, 3, 4, 5];
+numbers.forEach(function (number) {
+  console.log(number);
+});
 
+//1
+//2
+//3
+//4
+//5
 ```
