@@ -2,8 +2,51 @@
 title: Configuring Git
 ---
 
+## All at once
+
 1. Open the command line.
 1. You can be in any directory to run the following commands because they are global git configuration settings.
+1. Run the following commands:
+
+   ```
+   git config --global user.name "FIRST_NAME LAST_NAME"
+   git config --global user.email "my_name@example.com"
+   git config --global init.defaultBranch main
+   git config --global push.default current
+   git config --global push.autoSetupRemote true
+   git config --global merge.tool vscode
+   git config --global core.editor code --wait
+   git config --global diff.tool vscode
+   ```
+
+1. Verify the settings were set correctly.
+
+   ```sh
+   git config --list
+   ```
+
+   You should see output similar to but NOT exactly like the following.
+
+   ```
+   user.email=jdoe@example.com
+   user.name=John Doe
+   init.defaultbranch=main
+   core.editor=code --wait
+   diff.tool=vscode
+   difftool.vscode.cmd=code --wait --diff $LOCAL $REMOTE
+   merge.tool=vscode
+   mergetool.vscode.cmd=code --wait $MERGED
+   ```
+
+   :::tip
+   You may get a couple settings followed by a colon. If you do you will need to hit enter to see each additional configuration settings.
+   :::
+
+## Step by Step
+
+1. Open the command line.
+1. You can be in any directory to run the following commands because they are global git configuration settings.
+
 1. Set your username:
 
    ```sh
@@ -45,6 +88,7 @@ title: Configuring Git
    fatal: The current branch feature/my-cool-branch has no upstream branch.
    To push the current branch and set the remote as upstream, use git push --set-upstream origin feature/my-cool-branch
    ```
+
    :::
 
    For more details read [this article](https://dev.to/this-is-learning/this-new-git-push-config-will-save-you-lot-of-frustration-27a9#:~:text=It%20will%20set%20in%20your,automatically%20set%20the%20default%20upstream.)
@@ -66,8 +110,8 @@ title: Configuring Git
    You should see output similar to but NOT exactly like the following.
 
    ```
-   user.email=craigdmckeachie@gmail.com
-   user.name=Craig McKeachie
+   user.email=jdoe@example.com
+   user.name=John Doe
    init.defaultbranch=main
    core.editor=code --wait
    diff.tool=vscode
@@ -76,7 +120,6 @@ title: Configuring Git
    mergetool.vscode.cmd=code --wait $MERGED
    ```
 
-   
    **Do you see the settings we set in the prior steps?**
 
    :::tip
